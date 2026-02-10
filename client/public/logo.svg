@@ -1,0 +1,46 @@
+<svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background circle -->
+  <circle cx="100" cy="100" r="95" fill="none" stroke="#D4A843" stroke-width="2" opacity="0.5"/>
+  
+  <!-- Evolution silhouettes -->
+  <g stroke="#FFFFFF" stroke-width="2" fill="none">
+    <!-- Ape -->
+    <circle cx="30" cy="120" r="8"/>
+    <path d="M 30 128 L 30 140"/>
+    <path d="M 25 135 L 20 145"/>
+    <path d="M 35 135 L 40 145"/>
+    
+    <!-- Early human -->
+    <circle cx="60" cy="115" r="8"/>
+    <path d="M 60 123 L 60 140"/>
+    <path d="M 55 130 L 48 145"/>
+    <path d="M 65 130 L 72 145"/>
+    
+    <!-- Human -->
+    <circle cx="100" cy="110" r="8"/>
+    <path d="M 100 118 L 100 140"/>
+    <path d="M 95 125 L 85 145"/>
+    <path d="M 105 125 L 115 145"/>
+    
+    <!-- Wizard -->
+    <circle cx="140" cy="105" r="8"/>
+    <path d="M 140 113 L 140 135"/>
+    <path d="M 135 120 L 125 140"/>
+    <path d="M 145 120 L 155 140"/>
+    <!-- Wizard hat -->
+    <path d="M 135 100 L 140 85 L 145 100 Z"/>
+    <!-- Staff -->
+    <path d="M 155 110 L 170 70"/>
+    <circle cx="170" cy="70" r="4" fill="#D4A843"/>
+  </g>
+  
+  <!-- Lightning bolts -->
+  <g stroke="#D4A843" stroke-width="1.5" fill="none" opacity="0.7">
+    <path d="M 50 80 L 55 90 L 48 95"/>
+    <path d="M 120 75 L 128 85 L 120 92"/>
+    <path d="M 160 60 L 168 75 L 160 85"/>
+  </g>
+  
+  <!-- Title text -->
+  <text x="100" y="165" font-family="Bebas Neue, sans-serif" font-size="16" font-weight="bold" fill="#D4A843" text-anchor="middle">WIZARDWAYZ</text>
+</svg>
