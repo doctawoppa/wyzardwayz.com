@@ -15,7 +15,7 @@ export default function MomentumPage() {
 
   const handleBackClick = () => {
     // Navigate to the Magi layer (wyzardwayz.com)
-    window.location.href = "https://wyzardwayz.com";
+    window.location.href = "https://wizardwayz.com";
   };
 
   return (

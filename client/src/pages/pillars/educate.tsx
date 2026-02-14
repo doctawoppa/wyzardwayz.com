@@ -15,7 +15,7 @@ export default function EducatePage() {
 
   const handleBackClick = () => {
     // Navigate to the Magi layer (wyzardwayz.com)
-    window.location.href = "https://wyzardwayz.com";
+    window.location.href = "https://wizardwayz.com";
   };
 
   return (

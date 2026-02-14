@@ -19,7 +19,7 @@ export default function MerchandisePage() {
     );
     // Redirect back to Magi layer after a brief delay
     setTimeout(() => {
-      window.location.href = "https://wyzardwayz.com";
+      window.location.href = "https://wizardwayz.com";
     }, 500);
   }, [navigate]);
 
