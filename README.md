@@ -1,1 +1,1 @@
-# wizardwayz.com
+Wyzardwayz Magi Layer
