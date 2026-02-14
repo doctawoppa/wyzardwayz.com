@@ -10,11 +10,11 @@ import InteractiveLetter from "@/components/InteractiveLetter";
  * - Every visit reveals different pillars
  * 
  * LAYER SHIFT MECHANIC:
- * - This is wizardwayz.com (MUNDI layer - mundane/business perspective)
- * - Pillar pages link to wyzardwayz.com (MAGI layer - magical perspective)
+ * - This is wyzardwayz.com (MAGI layer - magical/mystical perspective)
+ * - Pillar pages link back to wizardwayz.com (MUNDI layer - mundane perspective)
  * - Visitors unknowingly cross between domains via pillar navigation
- * - Phase 1: wizardwayz.com homepage + pillar pages
- * - Phase 2: wyzardwayz.com mirror site with Magi-layer content
+ * - Identical design to wizardwayz.com (casual visitors think it's the same site)
+ * - Only differences: logo text (WYZARDWAYZ) and pillar narrative perspective
  */
 
 export default function Home() {
@@ -22,10 +22,10 @@ export default function Home() {
 
   // Add Easter egg to console and HTML comment
   useEffect(() => {
-    console.log("Do you ever get the feeling like you're going in circles?");
+          console.log("The circles close. The source reveals itself.");
     // Also add to HTML as a comment
     const comment = document.createComment(
-      "Do you ever get the feeling like you're going in circles?"
+      "The circles close. The source reveals itself."
     );
     document.documentElement.appendChild(comment);
   }, []);
@@ -60,9 +60,9 @@ export default function Home() {
         {/* Logo */}
         <div className="mb-4">
           <img
-            src="/logo.png"
-            alt="Wizardwayz"
-            className="h-[480px] w-auto opacity-90 hover:opacity-100 transition-opacity duration-300"
+            src="/logo-magi.png"
+            alt="Wyzardwayz"
+            className="h-40 w-auto opacity-90 hover:opacity-100 transition-opacity duration-300"
             style={{
               filter: "drop-shadow(0 0 15px rgba(212, 168, 67, 0.4))",
             }}
@@ -71,7 +71,7 @@ export default function Home() {
 
         {/* Tagline with interactive letters */}
         <div className="space-y-2">
-          {/* First line: "The MEME is the Magic" */}
+          {/* First line: "The MEME is the Magic" - Magi perspective */}
           <div className="text-4xl md:text-5xl lg:text-6xl font-bold tracking-wide">
             <span style={{ color: "#FFFFFF" }}>The </span>
             <InteractiveLetter letter="M" pillar={mPillars[0]} />
@@ -81,7 +81,7 @@ export default function Home() {
             <span style={{ color: "#FFFFFF" }}> is the Magic</span>
           </div>
 
-          {/* Second line: "The Magic is the MEME" */}
+          {/* Second line: "The Magic is the MEME" - Magi perspective */}
           <div className="text-4xl md:text-5xl lg:text-6xl font-bold tracking-wide">
             <span style={{ color: "#FFFFFF" }}>The Magic is the </span>
             <InteractiveLetter letter="M" pillar={mPillars[2]} />
