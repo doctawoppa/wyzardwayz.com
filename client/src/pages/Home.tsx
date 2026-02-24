@@ -62,7 +62,7 @@ export default function Home() {
           <img
             src="/logo-magi.png"
             alt="Wyzardwayz"
-            className="h-40 w-auto opacity-90 hover:opacity-100 transition-opacity duration-300"
+            className="h-[480px] w-auto opacity-90 hover:opacity-100 transition-opacity duration-300"
             style={{
               filter: "drop-shadow(0 0 15px rgba(212, 168, 67, 0.4))",
             }}

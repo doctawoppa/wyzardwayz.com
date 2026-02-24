@@ -41,7 +41,7 @@ export default function PillarPage() {
           Pillar Not Found
         </h1>
         <button
-          onClick={() => navigate("/")}
+          onClick={() => window.location.href = "https://wizardwayz.com"}
           className="mt-8 px-6 py-2 rounded transition-all duration-200"
           style={{
             backgroundColor: "#D4A843",
@@ -103,7 +103,7 @@ export default function PillarPage() {
 
         {/* Back button */}
         <button
-          onClick={() => navigate("/")}
+          onClick={() => window.location.href = "https://wizardwayz.com"}
           className="px-8 py-3 rounded font-bold transition-all duration-200 hover:brightness-125"
           style={{
             backgroundColor: "#D4A843",

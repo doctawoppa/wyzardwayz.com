@@ -16,7 +16,7 @@ export default function InteractiveLetter({
 
   const handleClick = () => {
     const slug = pillarToSlug(pillar);
-    navigate(`/pillars/${slug}`);
+    window.location.href = `https://wizardwayz.com/pillars/${slug}`;
   };
 
   const handleMouseEnter = () => {
